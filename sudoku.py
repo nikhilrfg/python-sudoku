@@ -44,6 +44,9 @@ if ok:
             if not checkset(list(sqr)):
                 ok = False
                 break
+        if not ok:
+                break
+       
 
 # Print the final verdict.
 if ok:
